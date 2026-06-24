@@ -15,4 +15,4 @@ class Solution:
         # z is a 1D NumPy array
         # Formula: max(0, z) element-wise
     
-        return np.maximum(z, 0)
+        return np.maximum(0, z)
